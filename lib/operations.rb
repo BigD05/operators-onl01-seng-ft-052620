@@ -1,4 +1,4 @@
-def unsafe (speed)
+def unsafe? (speed)
  if speed 0..40
    return "unsafe"
    elsif speed 40..60 
